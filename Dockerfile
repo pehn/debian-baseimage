@@ -1,6 +1,5 @@
 FROM debian:buster-slim
 
-LABEL maintainer="admin@minenet.at"
 
 RUN apt-get update && \
 	apt-get -y install --no-install-recommends wget locales procps && \
